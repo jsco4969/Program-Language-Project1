@@ -34,4 +34,21 @@ and subtraction.
 precedence over multiplication and division.
 
 ## documentation
-``def roman_to_int(roman)``
+```
+def roman_to_int(roman)
+```
+- what it does:<br> Convert a Roman numeral string to an integer.
+- Arg: <br> ``roman (str)``: Roman numeral string.
+- Return: <br> int: The equivalent integer, or -1 for invalid input.
+```
+def int_to_roman(number)
+```
+- what it does: <br> Convert an integer to a Roman numeral string.
+- Arg: <br> ``number (int)``: Integer to convert.
+- Return: <br> str: Roman numeral string, or error message if invalid.
+```
+def evaluate_expression(expression)
+```
+- what it does: <br> Evaluate a Roman numeral arithmetic expression.
+- Arg: <br> ``expression (str)``: Arithmetic expression using Roman numerals.
+- Return: str: <br> Resulting Roman numeral or error message.
