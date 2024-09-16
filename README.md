@@ -52,3 +52,22 @@ def evaluate_expression(expression)
 - what it does: <br> Evaluate a Roman numeral arithmetic expression.
 - Arg: <br> ``expression (str)``: Arithmetic expression using Roman numerals.
 - Return: str: <br> Resulting Roman numeral or error message.
+
+```
+  roman_to_int(roman)
+```
+- what it does: <br> Converts a Roman numeral string to its corresponding integer value. The function handles both additive and subtractive Roman numeral notations.
+- Arg: <br> ``roman (str)``: A string representing a Roman numeral 
+- Return: str: <br> ``int``: The integer representation of the Roman numeral. Returns ``-1`` if the input is invalid.
+```
+  int_to_roman(number)
+```
+- what it does: <br> Converts an integer into its Roman numeral equivalent.
+- Arg: <br>`` number (int)``: An integer to be converted into Roman numerals. Valid range is from 1 to 3999.
+- Return: str: <br> ``str``: A string representing the Roman numeral equivalent of the integer. If the integer is 0 or out of range (> 3999), a corresponding error message is returned.
+```
+  evaluate_expression(expression)
+```
+- what it does: <br> Evaluates an arithmetic expression written using Roman numerals.(* - / +)
+- Arg: <br> ``expression (str)``: A mathematical expression involving Roman numerals and arithmetic operators ex: ("(V + X) * II").
+- Return: str: <br> ``str``: The result of the expression as a Roman numeral string. If an error occurs, an appropriate error message is returned.
